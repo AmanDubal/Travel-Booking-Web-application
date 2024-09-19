@@ -1,6 +1,8 @@
 Travel Booking App
 This is a simple Travel Booking App built using HTML, CSS, and JavaScript. The application allows users to search for travel packages, view details, and book trips to various destinations across India. The design includes a modern layout with background images for an appealing user experience.
 
+**Checkout the Video** : travelling_application.mp4
+
 Features
 Search travel packages by destination and budget.
 View package details including price, rating, and description.
@@ -31,4 +33,4 @@ Book a Trip:
 Click the "Book Now" button, fill in your details, and submit the form to confirm your booking.
 Contributing.
 
-Checkout the Video : travelling_application.mp4
+

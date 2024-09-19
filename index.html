@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Travel Booking App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header-bg">
+    <h1>Explore India - Travel Booking App</h1>
+  </header>
+
+  <section class="search-section section-bg">
+    <input type="text" id="destination" placeholder="Destination" />
+    <input type="number" id="budget" placeholder="Max Budget" />
+    <input type="date" id="travel-date" />
+    <button id="search-btn">Search</button>
+  </section>
+
+  <section id="package-list" class="package-list"></section>
+
+  <div id="package-details" class="modal">
+    <div class="modal-content">
+      <span id="close-modal" class="close">&times;</span>
+      <div id="package-info"></div>
+    </div>
+  </div>
+
+  <div id="booking-form" class="modal">
+    <div class="modal-content">
+      <span id="close-booking" class="close">&times;</span>
+      <form id="book-form">
+        <h3>Book Your Trip</h3>
+        <input type="text" id="traveler-name" placeholder="Your Name" required />
+        <input type="date" id="trip-date" required />
+        <input type="number" id="num-travelers" placeholder="Number of Travelers" required />
+        <button type="submit">Book Now</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

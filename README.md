@@ -30,3 +30,5 @@ Book a Trip:
 
 Click the "Book Now" button, fill in your details, and submit the form to confirm your booking.
 Contributing.
+
+Checkout the Video : travelling_application.mp4
